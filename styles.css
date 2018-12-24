@@ -1,0 +1,280 @@
+
+body{
+	margin:					0px;
+	padding:				0px;
+	font-family:			"ヒラギノ角ゴ Pro W3","Hiragino Kaku Gothic Pro","メイリオ",Meiryo,"ＭＳ Ｐゴシック",sans-serif;
+	font-size:				12px;
+	text-align:				center;
+	background-repeat:		no-repeat;
+	background-position:	left bottom;
+	background-attachment:	fixed;
+	background-image:		url("./img/parts/background.jpg");
+	background-color:		#FFFFFF;
+	color: 					#333333;
+}
+
+/*S--top--*/
+
+#top{
+	margin-top:			10px;
+	margin-right:		auto;
+	margin-left:		auto;
+	margin-bottom:		0px;
+	padding-top:		0px;
+	padding-right:		0px;
+	padding-left:		0px;
+	padding-bottom:		0px;
+/*	border-style:		solid;
+	border-width:		1px;
+	border-color:		#ccc;*/
+	width:				1100px;
+	height:				50px;
+	text-align:	left;
+}
+
+h1 {
+	color: #333333;
+}
+
+#top h1 a{
+	text-decoration: none;
+}
+
+/*E--top--*/
+
+/*S--nav--*/
+
+#nav{
+	margin:		10px auto;
+	padding:	0px;
+	width:		1100px;
+}
+
+.btn {
+	background: #AEAEAE;
+	border: 1px solid #DDD;
+	color: #111;
+	width: 100px;
+	padding: 10px 0;
+	font-weight:	900;
+	color: #FFFFFF;
+	float:		left;
+}
+
+
+
+.btn:hover{
+	background: #EEE;
+	border: 1px solid #DDD;
+	color: #111;
+	width: 100px;
+	padding: 10px 0;
+}
+
+.btn_close{
+	background: #EEE;
+	border: 1px solid #DDD;
+	color: #111;
+	width: 100px;
+	padding: 10px 0;
+	font-weight:	900;
+	float:		left;
+}
+
+/*E--nav--*/
+
+
+#border{
+	margin:		0px auto;
+	padding:		0px;
+	border:			solid 1px #ccc;
+	position:		relative;
+	top:			42px;
+	width:			1100px;
+	background-color:	#FAFAFA;
+}
+
+.btn_top{
+	margin:		0px;
+	padding:	0px;
+	width:		52;
+	height:		51;
+	position:	fixed;
+	top:		50px;
+	right:		50px;
+}
+
+.btn_bottom{
+	margin:		0px;
+	padding:	0px;
+	width:		52;
+	height:		51;
+	position:	fixed;
+	bottom:		50px;
+	right:		50px;
+}
+
+
+/*S--更新情報--*/
+
+#info {
+	margin:		0px;
+	padding:	0px;
+	position:	absolute;
+	left:		10px;
+}
+
+#info h2{
+	margin:			10px 0px 10px 10px;
+	padding:		0px;
+	border-bottom:	1px solid #ccc;
+	width:			200px;
+	text-align:		left;
+	color:		#AFAFAF;
+	font-size:				10pt;
+}
+
+#info ul li{
+	margin:			0px;
+	padding:		0px;
+	text-align:		left;
+}
+
+/*E--更新情報--*/
+
+/*S--このサイトについて--*/
+
+
+#about{
+	margin:		0px;
+	padding:	5px;
+	position:	absolute;
+	border:			solid 1px #ccc;
+	position:		absolute;
+	top:			10px;
+	right:			10px;
+	width:			500px;
+	text-align:		left;
+	background-color:	#FAFAFA;
+}
+
+#about h2{
+	margin:			0px 0px 10px 0px;
+	padding:		0px;
+	border-bottom:	1px solid #ccc;
+	width:			200px;
+	text-align:		left;
+	color:		#AFAFAF;
+	font-size:				10pt;
+}
+
+/*E--このサイトについて--*/
+
+/*S--小説--*/
+
+#work {
+	margin:			10px 0px 0px 50px;
+	padding:		10px;
+	border:			solid 1px #ccc;
+	position:		absolute;
+	width:			1000px;
+	height:			200px;
+	background-color:	#FAFAFA;
+}
+
+.title {
+	margin:			0px 0px 0px 0px;
+	padding:		0px;
+	text-align:		left;
+	font-size:		16pt;
+}
+
+.new {
+	margin:			0px 0px 0px 0px;
+	padding:		5px;
+	position:		absolute;
+	left:			50px;
+	font-size:		12pt;
+}
+
+.page {
+	margin:			0px 0px 0px 0px;
+	padding:		5px;
+	position:		relative;
+	top:			50px;
+	right:			380px;
+	font-size:		12pt;
+}
+
+/*E--小説--*/
+
+#text {
+	margin:			50px 0px 0px 10px;
+	padding:		0px;
+	text-align:		left;
+	font-size:		14pt;
+}
+
+#back {
+	margin:			0px;
+	padding:		0px;
+	position:		absolute;
+	left:			15px;
+	bottom:			20px;
+}
+
+#next {
+	margin:			0px;
+	padding:		0px;
+	position:		absolute;
+	right:			15px;
+	bottom:			20px;
+}
+
+/*S--全ての要素--*/
+
+a:link{
+	color:				#225E9B;
+	text-decoration:	none;
+}
+
+a:visited{
+	color:				#225E9B;
+	text-decoration:	none;
+}
+
+a:hover{
+	color:				#225E9B;
+	text-decoration:	underline;
+}
+
+a{
+	outline:none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
